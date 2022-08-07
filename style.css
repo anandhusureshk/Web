@@ -1,0 +1,172 @@
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: 		#2F4F4F;
+}
+body {
+    margin: 0px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav h2{
+    color: white;
+}
+
+nav ul li a:hover{
+    color: #EEE8AA;
+    transaction: .4s;
+}
+
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: 	#F5F5F5;
+}
+
+.about-text h1{
+    font-size: 40px;
+    color: balck;
+}
+.about-text h2{
+    color: black;
+}
+.about-text{
+    color: black;
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: balck;
+    padding: 70px;
+}
+.education{
+    background-color: white;
+    padding: 100px;
+}
+.education h1{
+    color: balck;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+}
+.what-i-do{
+    padding: 150px;
+    background: 	#F5F5F5;
+}
+.i-do{
+    padding:50px;
+}
+.what-i-do h1{
+    text-align: center;
+}
+.python{
+    padding: 20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 200px;
+    width: 335px;
+    padding: 20px 30px;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    border-style: groove;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.what-i-did{
+    text-align: center;
+    padding: 70px;
+
+}
+.what-i-did h1{
+    padding: 50px;
+}
+
+.i-did{
+    padding: 30px;
+}
+.contact-section{
+    background:	#F5F5F5;
+    background-size: cover;
+    padding: 40px 0;
+}
+.contact-section h1{
+    text-align: center;
+    color: balck;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    border-style: groove;
+    background: white;
+    padding: 20px 40px;
+    outline: 20px;
+    color: balck;
+    transaction: 0.5s;
+}
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #8fd5db;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+
+}
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: #2F4F4F;
+    color: #fcffff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transaction: 0.5s;
+}
+.contact-form-btn:hover{
+    background: #008b8b;
+}
+.bg{
+    background: #2F4F4F;
+}
